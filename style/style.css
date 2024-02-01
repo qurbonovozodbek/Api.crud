@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(45, 45, 45);
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 25px;
+    border: 2px dashed white;
+    background: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+#form {
+    display: flex;
+    gap: 10px;
+}
+::placeholder {
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+    padding: 5px;
+    border-radius: 14px;
+    border: 1px dashed white;
+    background: rgb(45, 45, 45);
+}
+#but {
+    margin-top: 40px;
+    padding: 6px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    border:  1px dashed white;
+}
+#box {
+    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-top: 1px dashed white;
+    padding-top: 25px;
+}
+.card {
+    background: rgb(45, 45, 45);
+    width: 170px;
+    height: 160px;
+    padding: 10px;
+    border: 1px dashed white;
+    border-radius: 10px;
+}
+h2 {
+    color: white;
+}
+h2:hover {
+    text-shadow: 0 0 25px white;
+    cursor: pointer;
+}
+h5 {
+    color: white;
+}
+span {
+    color: white;
+}
+#del {
+    padding: 4px 12px;
+    border-radius: 12px;
+    border: 2px dashed white;
+    background-color: rgb(45, 45, 45);
+    margin-top: 10px;
+
+    color: yellow;
+}
