@@ -129,10 +129,10 @@ but && but.addEventListener('click', function(e) {
 
     e.preventDefault()
 
-    console.log('gandon');
+    
 
     if (validate(name, price)) {
-        console.log('qalesz');
+        
 
         let phone = {
             name: name.value,
@@ -163,7 +163,7 @@ but && but.addEventListener('click', function(e) {
             })
 
     } else {
-        console.log('yaxshi');
+        
     }
 });
 
